@@ -443,3 +443,198 @@ body {
 .slick-next {
     right: -95px;
 }
+/* team================================================= */
+.team {
+    padding: 120px 0 130px;
+}
+.team__title {
+    margin-bottom: 100px;
+}
+.team__items {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.team__name {
+    font-family: "Montserrat", sans-serif;
+    padding: 35px 0 12px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333;
+}
+.team__position {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+}
+/* price================================================= */
+.price {
+    background-color: #f6f8fa;
+    padding: 145px 0 160px;
+}
+.price__title {
+    margin-bottom: 90px;
+}
+.price__items {
+    display: flex;
+    justify-content: space-between;
+}
+.price__item {
+    background-color: #fff;
+    text-align: center;
+    padding: 24px 25px 50px;
+    width: 370px;
+}
+.price__item li {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    color: #242121;
+    margin-bottom: 30px;
+}
+.price__item .price__item-name {
+    text-align: left;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.price__item .price__item-num {
+    font-size: 80px;
+    line-height: 109px;
+    margin-bottom: 50px;
+}
+.price__item-num sup {
+    vertical-align: super;
+    font-size: 40px;
+    line-height: 54px;
+}
+.price__item-link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    color: #242121;
+    letter-spacing: 1.2px;
+    margin-top: 20px;
+    display: block;
+}
+/* clients================================================= */
+.clients__list {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0 95px;
+    align-items: center;
+}
+/* connection================================================= */
+.connection {
+    padding: 145px 0 160px;
+    background-image: url("../images/map.jpg");
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right 70%;
+}
+.connection__title {
+    margin-bottom: 80px;
+}
+.form {
+    max-width: 570px;
+}
+.form input,
+.form textarea {
+    border: none;
+    border-bottom: 2px solid #373a39;
+    display: block;
+    width: 100%;
+    padding: 16px 0;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.form::placeholder {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #b8b8b8;
+    letter-spacing: 3.70909px;
+    text-transform: uppercase;
+}
+.form input::placeholder,
+.form textarea::placeholder {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #b8b8b8;
+    letter-spacing: 3.70909px;
+    text-transform: uppercase;
+}
+.form textarea {
+    min-height: 140px;
+    resize: none; /*убрать на тексарее регулировку */
+}
+.form button {
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 17px 70px 15px;
+    border: none;
+    background-color: #242121;
+    cursor: pointer;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+/* footer================================================= */
+.footer__top {
+    padding: 110px 10px 60px;
+    background-color: #333;
+    text-align: center;
+}
+.footer__logo {
+    display: inline-block;
+    padding: 0 35px 4px;
+    border-bottom: 2px solid #fcbb08;
+    margin-bottom: 70px;
+}
+.footer__social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.footer__social-list {
+    padding: 0 15px;
+}
+.footer__social-link {
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 4px;
+    margin-bottom: 65px;
+    color: #fff;
+}
+.footer__contact {
+    font-size: 14px;
+    line-height: 32px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.footer__contact a {
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+    color: #ffffff;
+}
+.go-top {
+    display: inline-block;
+}
+.footer__copy {
+    background-color: #2A2C2B;
+    padding: 40px 10px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ccc;
+}
